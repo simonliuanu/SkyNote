@@ -1,0 +1,47 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.19/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.19",
+    "version": "1.0.0",
+    "id": "23526526-ef93-48a9-83fe-eab251e25817",
+    "developer": {
+        "name": "Teams App, Inc.",
+        "websiteUrl": "https://www.example.com",
+        "privacyUrl": "https://www.example.com/privacy",
+        "termsOfUseUrl": "https://www.example.com/termsofuse"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "SkyNotelocal",
+        "full": "Full name for SkyNote"
+    },
+    "description": {
+        "short": "Short description of SkyNote",
+        "full": "Full description of SkyNote"
+    },
+    "accentColor": "#FFFFFF",
+    "bots": [],
+    "composeExtensions": [],
+    "staticTabs": [
+        {
+            "entityId": "index0",
+            "name": "Home",
+            "contentUrl": "https://localhost:53000/tab",
+            "websiteUrl": "https://localhost:53000/tab",
+            "scopes": [
+                "personal",
+                "groupChat",
+                "team"
+            ]
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "localhost"
+    ]
+}
